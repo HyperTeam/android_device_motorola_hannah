@@ -87,7 +87,6 @@ LensInfo : Information of the lens present in the module.
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>mot_ov12a10</SensorName>
-    <EepromName>l12aa00</EepromName>
     <ActuatorName>dw9767</ActuatorName>
     <FlashName>pmic</FlashName>
     <ChromatixName>ov12a10_hannah_chromatix</ChromatixName>
@@ -112,7 +111,6 @@ LensInfo : Information of the lens present in the module.
   <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>s5k4h7</SensorName>
-    <EepromName>s5k4h7</EepromName>
     <FlashName>pmic</FlashName>
     <ChromatixName>mot_s5k4h7_hannah_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
@@ -136,7 +134,6 @@ LensInfo : Information of the lens present in the module.
   <CameraModuleConfig>
   <CameraId>2</CameraId>
     <SensorName>mot_ov5675</SensorName>
-    <EepromName>ov5675</EepromName>
     <FlashName>pmic</FlashName>
     <ChromatixName>ov5675_jeterkc_chromatix</ChromatixName>
     <AltChromatixName>ov5675_jeterht_chromatix</AltChromatixName>
