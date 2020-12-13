@@ -11,14 +11,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_hannah
+PRODUCT_NAME := aosp_hannah
 PRODUCT_DEVICE := hannah
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto e5 plus
 PRODUCT_MANUFACTURER := motorola
+
+TARGET_BOOT_ANIMATION_RES := 1440
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.model \
