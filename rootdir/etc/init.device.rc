@@ -79,6 +79,7 @@ on property:ro.boot.hardware.sku=XT1924-7
     setprop ro.opengles.version 196610
     setprop ro.product.model XT1924-7
     setprop ro.product.name hannah_t
+    setprop ro.radio.imei.sv 21
     setprop dalvik.vm.dex2oat-threads 6
     setprop persist.lte.pco_supported true
     setprop persist.vendor.audio.fluence.speaker true
