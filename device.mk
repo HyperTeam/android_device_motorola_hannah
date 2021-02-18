@@ -14,6 +14,10 @@ $(call inherit-product-if-exists, vendor/motorola/hannah/hannah-vendor.mk)
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# Exclude Snap overlays from RRO
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lineage/packages/apps/Snap
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
